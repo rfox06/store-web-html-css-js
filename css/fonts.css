@@ -1,0 +1,21 @@
+@font-face {
+    font-family: mainFont;
+    src: url(/assets/fonts/Blinker-ExtraBold.ttf);
+    font-display: swap;
+}
+@font-face {
+    font-family: secondFont;
+    src: url(/assets/fonts/Blinker-Light.ttf);
+    font-display: swap;
+}
+@font-face {
+    font-family: tertiaryFont;
+    src: url(/assets/fonts/Blinker-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: extraFont;
+    src: url(/assets/fonts/DancingScript-VariableFont_wght.ttf);
+    font-display: swap;
+}
