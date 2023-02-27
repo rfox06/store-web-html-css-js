@@ -1,0 +1,161 @@
+.container-navbar{
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+}
+/*logo*/
+.logo{
+    background: forestgreen;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: tertiaryFont;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*center-menu*/
+
+.main-menu{
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 80px 0 160px;
+    
+    
+    
+}
+.list-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.list-menu li{
+    margin: 15px;
+}
+
+.list-menu li a{
+    
+    text-decoration: none;
+    color: var(--black-color);
+}
+.list-menu li a:hover{
+    color: var(--dark-color);
+    transition: .3s;
+}
+/*main-menu*/
+
+/**/
+
+.main-menu .list-menu a{
+    display: block;
+    background: steelblue;
+    text-align: center;
+    height: 100px;
+    padding-top: 40px;
+    font-size: 16px;
+    
+    
+}
+.main-menu .list-menu li {
+    position: relative;
+    
+}
+.main-menu .list-submenu{
+    background-color: seagreen;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.main-menu .list-submenu  li{
+    float: none;
+    width: 150px;
+    list-style: none;
+    display: flex;
+    background: red;
+}
+.main-menu .list-submenu a{
+    height: 30px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.main-menu ul li:hover > ul{
+    display: block;
+    transition: .6s;
+}
+
+/*list-icons*/
+.items-navbar{
+    background: #eeeeee;
+}
+
+.list-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.list-items li{
+    margin: 12px;
+}
+.list-items a{
+    display: flex;
+    text-decoration: none; 
+}
+
+
+/*icons*/
+.list-items input{
+    border: 1px solid #eeeeee;
+    height: 30px;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: relative;
+    border: none;
+}
+.search-icon img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 40px;
+    right: 280px;
+}
+.heart-icon{
+    width: 23px;
+    height: 23px; 
+    object-fit: contain;
+}
+
+.btn{
+    background: blue;
+    font-size: 18px;
+    padding: 16px 34px;
+    border-radius: 25px;
+    border: 0;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+    color: var(--white-color);
+}
+
+
+
+
+
+
+
+
+
+
+
