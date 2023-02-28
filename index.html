@@ -15,20 +15,22 @@
 </head>
 
 <body>
-    <header class="container-navbar">
-        <section class="logo">
-            <span>Estore.</span>
-        </section>
-        <nav id="nav" class="main-menu">
+    <header class="container-header">
+        <a href="#" class="logo">Estore.</a>
+
+        <nav class="main-menu">
             <ul class="list-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Category</a></li>
-                <li><a href="#">Latest</a>
-                    <ul class="list-submenu">
-                        <li><a href="#">Product List</a></li>
-                        <li><a href="#">Product Details</a></li>
-                    </ul>
-                </li>
+                <div class="hot">
+                    <div class="element-hot">Hot</div>
+                    <li><a href="#">Latest</a>
+                        <ul class="list-submenu">
+                            <li><a href="#">Product List</a></li>
+                            <li><a href="#">Product Details</a></li>
+                        </ul>
+                    </li>
+                </div>
 
                 <li><a href="#">Blog</a>
                     <ul class="list-submenu">
@@ -49,18 +51,39 @@
                 </li>
                 <li><a href="#">Contact</a></li>
             </ul>
+
         </nav>
 
-        <section class="items-navbar">
+        <section class="icons-navbar">
             <ul class="list-items">
-                <li><a class="search-icon" href="#"><input type="search"><img src="/assets/icons/search-solid.svg"
-                            alt=""></a></li>
-                <li><a class="heart-icon" href="#"><img src="/assets/icons/heart-regular.svg" alt=""></a></li>
-                <li><a class="heart-icon" href="#"><img src="/assets/icons/cart-shopping-solid.svg" alt=""></a>
+                <li class="search">
+                    <input type="search products" name="search" id="">
+                    <img src="/assets/icons/search-solid.svg" alt="">
+
                 </li>
+                <div class="icon-count">
+                    <div class="count">03</div>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/icons/heart-regular.svg" alt="">
+                        </a>
+
+                    </li>
+                </div>
+                <div class="icon-count">
+                    <div class="count">12</div>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/icons/cart-shopping-solid.svg" alt="">
+                        </a>
+
+                    </li>
+                </div>
+
                 <li><a href="#"><button class="btn">Sign Up</button></a></li>
             </ul>
         </section>
+
     </header>
 
     <section class="banner">
