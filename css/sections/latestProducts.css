@@ -1,0 +1,127 @@
+.latest-products{
+    
+    margin: 180px 80px 20px 80px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.navigation-bar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+}
+.navigation-bar h2{
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+}
+.navigation-bar .list{
+    display: flex;
+    list-style: none;
+}
+.navigation-bar .list li{
+    margin: 0 10px;
+}
+
+.navigation-bar .list li a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    display: block;
+    color: #8f8f96;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.navigation-bar .list li a:hover{
+    color: var(--dark-color);
+}
+
+/*img products*/
+.list-products{
+    
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list-products .product{
+   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0 ;
+}
+.list-products .product .product-new{
+    background: var(--dark-color);
+    position: absolute;
+    text-align: center;
+    
+    width: 80px;
+    height: 40px;
+    top: 20px;
+    left: 10px;
+    
+    padding: 9px 16px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.list-products .product .price{
+    
+    margin: 0 30px;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+}
+.list-products .product h3{
+    
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: secondFont;
+    font-weight: 200;
+}
+.list-products .product .price .price-ofert{
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.list-products .product .price .price-normal{
+    font-size: 18px;
+    margin-left: 10px;
+    color: var(--dark-color);
+    letter-spacing: 2px;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+.list-products .product .rating img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
