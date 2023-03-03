@@ -1,0 +1,152 @@
+.banner-product{
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 60px 60px 60px;
+    flex-wrap: wrap;
+}
+.container-banner{
+    background: #FFF6D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 578px;
+}
+.banner-product img{
+    position: absolute;
+    left: 180px;
+    top: -120px;
+}
+
+.info-banner {
+    position: absolute;
+   
+    gap: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    right: 170px;
+    top: 180px;
+    flex-wrap: wrap;
+
+}
+.info-banner h2{
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+}
+.info-banner p{
+    color: #373b41;
+    font-size: 20px;
+}
+.info-banner a{
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    box-shadow: 0px 20px 50px 0px rgb(22 22 22 / 20%);
+    transform: translateY(0px);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    padding: 27px 44px;
+    border-radius: 25px;
+}
+
+
+@media (max-width:970px){
+    .container-banner{
+        background: #FFF6D9;
+        display: flex;
+        
+        width: 100%;
+        
+    }
+    .banner-product img{
+        
+        
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        left: 70px;
+        
+    }
+    .info-banner {
+        
+        gap: 30px;
+        width: 440px;
+        /* left: 180px;
+        top: 290px; */
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 300px;
+        left: 20%;
+        background: #373b41;
+        
+    
+    }
+
+
+    .info-banner h2{
+        color: #000;
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .info-banner p{
+        color: #373b41;
+        font-size: 18px;
+    }
+    .info-banner a{
+        text-decoration: none;
+        color: #fff;
+        background: #000;
+        box-shadow: 0px 20px 50px 0px rgb(22 22 22 / 20%);
+        transform: translateY(0px);
+        cursor: pointer;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 0;
+        margin-bottom: 0;
+        padding: 25px 40px;
+        border-radius: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
